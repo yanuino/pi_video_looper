@@ -24,7 +24,7 @@ There are also pre-compiled images available from <https://videolooper.de> (but 
 #### new in v1.0.20
  - GPIO pins can be set via ini to be pulled high or low 
  - special "loop specific file" function  
-   You can have multiple videos in the playlist but the file with _repeat_-1x will always be looped - this is useful if you want to loop one video but allow jumps to other videos via e.g. GPIO pins  
+   You can have multiple videos in the playlist but the file with _repeat\_-1x will always be looped - this is useful if you want to loop one video but allow jumps to other videos via e.g. GPIO pins  
  - added a free space check to copymode - file will only be copied if the target (SD Card) has enough free space available (+100MB buffer) 
  - random playback is honored when using "skip"
  - added option to randomly select only files that have not been played yet
@@ -188,7 +188,7 @@ Note: files with the same name always get overwritten.
     * with hello_video there is no gap when a video is repeated but there is a small gap between different videos
     * with omxplayer there will also be a short gap between the repeats
 
-* by adding _repeat_-1x the file will be looped forever even if other files exist - this is useful for having one video loop but allow jumps to other video via e.g. GPIO
+* by adding _repeat\_-1x the file will be looped forever even if other files exist - this is useful for having one video loop but allow jumps to other video via e.g. GPIO
     
 * if you have only one video then omxplayer will also loop seamlessly (and with audio)
 
